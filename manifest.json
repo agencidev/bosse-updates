@@ -1,9 +1,9 @@
 {
-  "latest_version": "1.2.0",
+  "latest_version": "1.3.0",
   "release_date": "2026-02-05",
   "min_php_version": "8.0",
-  "changelog": "Förbättrad uppdaterings-UI med animationer och feedback",
-  "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/bosse-1.2.0.zip",
+  "changelog": "SiteGround deploy workflow + förbättrad .htaccess med cache-strategi",
+  "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/bosse-1.3.0.zip",
   "signature": "",
   "critical": false,
   "migrations": []
