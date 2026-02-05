@@ -1,9 +1,9 @@
 {
-  "latest_version": "1.4.0",
+  "latest_version": "1.4.1",
   "release_date": "2026-02-05",
   "min_php_version": "8.0",
-  "changelog": "Dashboard visar alla inlägg med redigerbara kategorier + ÖÄÅ-fix",
-  "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/bosse-1.4.0.zip",
+  "changelog": "Förenklad dashboard med inläggs-räknare + ÖÄÅ-fix",
+  "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/bosse-1.4.1.zip",
   "signature": "",
   "critical": false,
   "migrations": []
