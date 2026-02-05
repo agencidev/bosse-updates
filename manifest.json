@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.4",
+    "latest_version": "1.5.5",
     "release_date": "2026-02-05",
     "min_php_version": "8.0",
-    "changelog": "Agenci-logotyp i CMS, fixat logo/favicon-uppladdning, update-banner, hero-text",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.4.zip",
+    "changelog": "Fixat saknad inställningssida + Agenci-logotyp i CMS",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.5.zip",
     "signature": "",
     "migrations": [],
     "critical": false
