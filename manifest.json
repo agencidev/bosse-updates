@@ -1,9 +1,9 @@
 {
-  "latest_version": "1.5.2",
+  "latest_version": "1.5.3",
   "release_date": "2026-02-05",
   "min_php_version": "8.0",
-  "changelog": "Favicon + SMTP i inställningar, utökad fontlista (80+ Google Fonts), CMS-förbättringar",
-  "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/bosse-1.5.2.zip",
+  "changelog": "Fixa uppdateringsproblem + Inställningssida med Favicon och SMTP",
+  "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/bosse-1.5.3.zip",
   "signature": "",
   "critical": false,
   "migrations": []
