@@ -1,9 +1,9 @@
 {
-  "latest_version": "1.1.0",
-  "release_date": "2026-02-04",
+  "latest_version": "1.2.0",
+  "release_date": "2026-02-05",
   "min_php_version": "8.0",
-  "changelog": "Publika projekt-sidor, förbättrad CMS-dokumentation, CLAUDE.md för AI-stöd",
-  "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/bosse-1.1.0.zip",
+  "changelog": "Förbättrad uppdaterings-UI med animationer och feedback",
+  "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/bosse-1.2.0.zip",
   "signature": "",
   "critical": false,
   "migrations": []
