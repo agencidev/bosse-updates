@@ -1,9 +1,9 @@
 {
-  "latest_version": "1.4.1",
+  "latest_version": "1.4.2",
   "release_date": "2026-02-05",
   "min_php_version": "8.0",
-  "changelog": "Förenklad dashboard med inläggs-räknare + ÖÄÅ-fix",
-  "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/bosse-1.4.1.zip",
+  "changelog": "AI-regler förtydligar att inlägg ALLTID ska i projects.json",
+  "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/bosse-1.4.2.zip",
   "signature": "",
   "critical": false,
   "migrations": []
