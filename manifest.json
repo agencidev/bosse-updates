@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.22",
-    "release_date": "2026-02-10",
+    "latest_version": "1.5.23",
+    "release_date": "2026-02-11",
     "min_php_version": "8.0",
-    "changelog": "Extension-stöd: custom routes, API-handlers och dashboard-kort via cms/extensions/",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.22.zip",
+    "changelog": "Config-only mode: vid re-klon/deploy visas bara admin+SMTP-formulär istället för hela setup-wizarden",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.23.zip",
     "signature": "",
     "migrations": [],
     "critical": false
