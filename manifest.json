@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.23",
+    "latest_version": "1.5.24",
     "release_date": "2026-02-11",
     "min_php_version": "8.0",
-    "changelog": "Config-only mode: vid re-klon/deploy visas bara admin+SMTP-formulär istället för hela setup-wizarden",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.23.zip",
+    "changelog": "Fallback-detection: sites utan .installed detekteras via content.json för config-only mode",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.24.zip",
     "signature": "",
     "migrations": [],
     "critical": false
