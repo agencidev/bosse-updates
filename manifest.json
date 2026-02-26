@@ -5,6 +5,8 @@
     "changelog": "",
     "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.50.zip",
     "signature": "",
-    "migrations": [],
+    "migrations": [
+        "1.5.50"
+    ],
     "critical": false
 }
