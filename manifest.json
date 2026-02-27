@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.63",
+    "latest_version": "1.5.64",
     "release_date": "2026-02-27",
     "min_php_version": "8.0",
-    "changelog": "- Fix: \"Aktivera redigering\" visades på /tickets och /media\n- Fix: Lösenordsbyte via super-admin fungerade inte (regex saknade semikolon)\n- Fix: triggerAI-knappen kraschade (undefined event)\n- Fix: Upload-ikon felplacerad i bildväljaren\n- Ny: Ögon-ikon för lösenordsfält i setup + super-admin\n- Ändrad: Container 48rem på support/seo/settings\n- Ändrad: Enhetlig tillbaka-knapp på media-sidan\n- Borttagen: AI-chattsida (ai-agent backend kvar)\n- Borttagen: Meta-formulär från SEO-sidan",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.63.zip",
+    "changelog": "- Ny: Drag & drop i bildväljaren (utöver klick-upload)\n- Fix: Bilder visades dubbelt i mediabiblioteket (WebP-kopior filtreras)\n- Ändrad: Inläggssidan — bredare container (48rem), moderna bulk-knappar, pill-badges, dark theme",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.64.zip",
     "signature": "",
     "migrations": [
         "1.5.50"
