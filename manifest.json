@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.64",
-    "release_date": "2026-02-27",
+    "latest_version": "1.5.65",
+    "release_date": "2026-03-01",
     "min_php_version": "8.0",
-    "changelog": "- Ny: Drag & drop i bildväljaren (utöver klick-upload)\n- Fix: Bilder visades dubbelt i mediabiblioteket (WebP-kopior filtreras)\n- Ändrad: Inläggssidan — bredare container (48rem), moderna bulk-knappar, pill-badges, dark theme",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.64.zip",
+    "changelog": "- Fix: Cookie-banner kontrast (#b3b3b3 → #d4d4d4) — uppfyller WCAG AA 4.5:1\n- Fix: Lösenordshash korrumperades av preg_replace (admin.php + api-super.php)\n- Ny: Relaterade inlägg på projekt-singelsidan (samma kategori, max 3)\n- Ny: Lösenordsbyte i CMS-inställningar (/settings)\n- Ny: Bulk-optimering av bilder i mediabiblioteket",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.65.zip",
     "signature": "",
     "migrations": [
         "1.5.50"
