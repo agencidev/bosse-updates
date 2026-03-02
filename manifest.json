@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.68",
+    "latest_version": "1.5.69",
     "release_date": "2026-03-02",
     "min_php_version": "8.0",
-    "changelog": "- Fix: Version-bump så GitHub-push-fixen (v1.5.67) faktiskt aktiveras på alla projekt",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.68.zip",
+    "changelog": "- Fix: Lösenordshash i settings.php korrumperades av preg_replace (samma bugg som fixades i admin.php i v1.5.65)",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.69.zip",
     "signature": "",
     "migrations": [
         "1.5.50"
