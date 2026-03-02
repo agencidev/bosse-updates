@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.69",
+    "latest_version": "1.5.70",
     "release_date": "2026-03-02",
     "min_php_version": "8.0",
-    "changelog": "- Fix: Lösenordshash i settings.php korrumperades av preg_replace (samma bugg som fixades i admin.php i v1.5.65)",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.69.zip",
+    "changelog": "- Perf: Async Google Fonts — eliminerar 470ms render-block (preload+onload)\n- Perf: Smart caching — 5 min browser-cache för publika besökare, no-cache för inloggade\n- Perf: CLS-prevention — width/height på logotyper via getimagesize()\n- Perf: LCP-preload + fetchpriority=\"high\" på projekt-cover\n- Perf: defer på cms.js (5 sidor saknade det)\n- Perf: Optimerad head-ordning — main.css först, fonts async efter\n- Perf: Bort med redundant preload + dns-prefetch\n- Docs: Skärpt CLAUDE.md-regel för inlägg via projects.json",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.70.zip",
     "signature": "",
     "migrations": [
         "1.5.50"
