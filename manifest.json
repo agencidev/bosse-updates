@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.73",
+    "latest_version": "1.5.74",
     "release_date": "2026-03-02",
     "min_php_version": "8.0",
-    "changelog": "- Feat: Routing för alla kategorier — /nyheter (Nyhet) och /event (Event) med tillbaka-länkar",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.73.zip",
+    "changelog": "- Fix: $_uri_prefix undefined i projectSchema() — variabel passas nu som parameter istället för implicit scope",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.74.zip",
     "signature": "",
     "migrations": [
         "1.5.50"
