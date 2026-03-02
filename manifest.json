@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.65",
-    "release_date": "2026-03-01",
+    "latest_version": "1.5.66",
+    "release_date": "2026-03-02",
     "min_php_version": "8.0",
-    "changelog": "- Fix: Cookie-banner kontrast (#b3b3b3 → #d4d4d4) — uppfyller WCAG AA 4.5:1\n- Fix: Lösenordshash korrumperades av preg_replace (admin.php + api-super.php)\n- Ny: Relaterade inlägg på projekt-singelsidan (samma kategori, max 3)\n- Ny: Lösenordsbyte i CMS-inställningar (/settings)\n- Ny: Bulk-optimering av bilder i mediabiblioteket",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.65.zip",
+    "changelog": "- Fix: Self-heal — updater laddar ner och extraherar saknade core-filer automatiskt\n- Fix: Projekt som uppdaterades från gamla versioner saknade cms/media.php, tickets, ai-agent",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.66.zip",
     "signature": "",
     "migrations": [
         "1.5.50"
