@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.71",
+    "latest_version": "1.5.72",
     "release_date": "2026-03-02",
     "min_php_version": "8.0",
-    "changelog": "- Design: Stramare kortdesign — 5px border-radius, 3-kolumns grid, ingen hover-shadow\n- Design: Borttagen filter-UI på projekt/blogg-listor\n- Feat: Kategoribaserade URL:er — /blogg visar blogginlägg, /projekt visar projekt\n- Feat: Dynamiska tillbaka-länkar och schema.org baserat på URL-prefix\n- Feat: Front-controller i index.php för custom routes via cms/extensions/routes.php",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.71.zip",
+    "changelog": "- Feat: CSS opt-out för projekt/blogg — skapa `assets/css/projekt-custom.css` eller `projekt-single-custom.css` för egen design som överlever uppdateringar",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.72.zip",
     "signature": "",
     "migrations": [
         "1.5.50"
