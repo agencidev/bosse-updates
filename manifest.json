@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.67",
+    "latest_version": "1.5.68",
     "release_date": "2026-03-02",
     "min_php_version": "8.0",
-    "changelog": "- Fix: GitHub-push failade om GITHUB_REPO sparades som full URL (normaliseras nu till org/name)\n- Fix: GITHUB_REPO normaliseras vid sparning i super-admin (tar bort https://github.com/ och .git)",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.67.zip",
+    "changelog": "- Fix: Version-bump så GitHub-push-fixen (v1.5.67) faktiskt aktiveras på alla projekt",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.68.zip",
     "signature": "",
     "migrations": [
         "1.5.50"
