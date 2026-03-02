@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.74",
+    "latest_version": "1.5.75",
     "release_date": "2026-03-02",
     "min_php_version": "8.0",
-    "changelog": "- Fix: $_uri_prefix undefined i projectSchema() — variabel passas nu som parameter istället för implicit scope",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.74.zip",
+    "changelog": "- Fix: router.php — stöd för `__patterns` (blogg/nyheter/event-sluggar fungerar nu i PHP dev-server)\n- Fix: router.php + index.php — robust path-resolution, hanterar absoluta sökvägar i custom routes utan att dubbla `__DIR__`",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.75.zip",
     "signature": "",
     "migrations": [
         "1.5.50"
