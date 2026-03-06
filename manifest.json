@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.83",
+    "latest_version": "1.5.84",
     "release_date": "2026-03-06",
     "min_php_version": "8.0",
-    "changelog": "- Feat: Ja/nej-toggle för Google Analytics i setup-wizarden\n- Feat: Fullskärms mobilmeny med staggered hamburger-ikon och smooth animationer\n- Fix: Cookie-banner använder nu projektets CSS-variabler istället för hårdkodade färger\n- Fix: Cookie policy-titlar är nu vita för bättre läsbarhet\n- Change: `data/content.json` och `data/projects.json` borttagna från `.gitignore`",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.83.zip",
+    "changelog": "",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.84.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
