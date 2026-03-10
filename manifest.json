@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.87",
+    "latest_version": "1.5.88",
     "release_date": "2026-03-10",
     "min_php_version": "8.0",
-    "changelog": "- Feat: SEO-admin — hantera meta-titel och beskrivning per sida med Google-förhandsgranskning\n- Feat: Egen analytics — besöksstatistik utan tredjepartstjänst (tracker.js + analytics-dashboard)\n- Feat: Analytics-kort på dashboard\n- Fix: Double-escaping i meta-taggar — ny `get_content_raw()` för `generateMeta()`\n- Fix: Cookie consent uppdaterad för analytics-samtycke\n- Remove: `pages/support.php` — support är CMS-only (`cms/support.php`)",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.87.zip",
+    "changelog": "- Fix: /seo gav 403 — Apache tolkade `seo/`-mappen som directory listing. Explicit RewriteRule tillagd.\n- Fix: Tillagda .htaccess-routes för /seo, /support, /settings",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.88.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
