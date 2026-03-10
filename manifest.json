@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.88",
+    "latest_version": "1.5.89",
     "release_date": "2026-03-10",
     "min_php_version": "8.0",
-    "changelog": "- Fix: /seo gav 403 — Apache tolkade `seo/`-mappen som directory listing. Explicit RewriteRule tillagd.\n- Fix: Tillagda .htaccess-routes för /seo, /support, /settings",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.88.zip",
+    "changelog": "- Fix: Rensat inlagg.php och inlagg-single.php från kundspecifikt innehåll (Uppdragsbrev)\n- Fix: Inläggssidor använder nu korrekt inlagg-default.css / inlagg-single-default.css\n- Fix: Custom CSS (inlagg-custom.css) ersätter default helt — kunddesign överlever uppdateringar\n- Remove: Fake-författare, featured layout, sidebar, kundkategorier (Juridik/Tech/Bransch)",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.89.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
