@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.97",
+    "latest_version": "1.5.98",
     "release_date": "2026-03-11",
     "min_php_version": "8.0",
-    "changelog": "- Fix: peys-badge.php saknades i build-release.php — filen inkluderades aldrig i ZIP-distributionen\n- Fix: Peys-badge levereras via cookie-consent.php (CORE-fil) istället för footer.php (SAFE)\n- Remove: Migration 1.5.94.php — inte längre nödvändig",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.97.zip",
+    "changelog": "- Fix: Peys-badge helt isolerad med !important — ärver inte längre typsnitt, färg eller spacing från sajten",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.98.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
