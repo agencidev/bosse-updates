@@ -1,16 +1,16 @@
 {
-    "latest_version": "1.5.92",
+    "latest_version": "1.5.93",
     "release_date": "2026-03-11",
     "min_php_version": "8.0",
-    "changelog": "- Ny: `includes/peys-badge.php` — CORE-fil som levererar Peys-banner under footern, uppdateras automatiskt\n- Fix: Migration 1.5.91 injicerar peys-badge include i befintliga footers\n- Fix: Peys-badge tillagd i UPDATABLE_FILES så den levereras vid uppdatering",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.92.zip",
+    "changelog": "- Fix: Migration för peys-badge döpt till 1.5.92.php — körs nu korrekt vid uppdatering från 1.5.91/1.5.92",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.93.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
         "1.5.75",
         "1.5.78",
         "1.5.79",
-        "1.5.91"
+        "1.5.92"
     ],
     "critical": false
 }
