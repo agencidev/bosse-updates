@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.98",
+    "latest_version": "1.5.99",
     "release_date": "2026-03-11",
     "min_php_version": "8.0",
-    "changelog": "- Fix: Peys-badge helt isolerad med !important — ärver inte längre typsnitt, färg eller spacing från sajten",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.98.zip",
+    "changelog": "- Fix: Peys-badge helt CSS-isolerad — `all: revert`, inga delade klassnamn (.container borttagen), alla regler !important",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.99.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
