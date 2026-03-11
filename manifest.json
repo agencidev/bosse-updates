@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.90",
-    "release_date": "2026-03-10",
+    "latest_version": "1.5.91",
+    "release_date": "2026-03-11",
     "min_php_version": "8.0",
-    "changelog": "- Fix: Route-generator skriver nu statiska routes före kategori-patterns i .htaccess — förhindrar att kundspecifika sidor (t.ex. pages/nyheter.php) åsidosätts av auto-genererade kategori-routes\n- Fix: Borttagen /support från SEO-admin (CMS-only, ska inte indexeras)\n- Fix: Uppdaterade CSS-kommentarer (inlagg-custom.css istället för projekt-custom.css)\n- Fix: Borttagen kund-placeholder strandmarkmedical i setup.php\n- Remove: Orphan CSS-filer (projekt-default.css, projekt-single-default.css)\n- Remove: Tomma SAFE-filer (inlagg-custom.css, inlagg-single-custom.css) — skapas per projekt",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.90.zip",
+    "changelog": "- Docs: Uppdaterat ai-rules.md — projekt.php → inlagg.php, /projekt → /inlagg, analytics-sektion tillagd\n- Docs: Uppdaterat CLAUDE.md — CORE-lista med analytics-filer, förtydligat CSS opt-out\n- Ny: Peys-banner i footer (\"Sidan drivs och hanteras av PEYS\" med länk till peys.se)\n- Ny: Peys SVG-logotyper som default (logo-dark.svg, logo-light.svg) — byts via setup\n- Ny: Sitemap auto-discover — skannar pages/*.php och categories.php automatiskt\n- Ny: Sitemap använder rätt URL-prefix per kategori (t.ex. /blogg/slug istället för /inlagg/slug)\n- Remove: pages/kontakt.php — skapas per projekt via prompt\n- Remove: /kontakt route från router.php, .htaccess, seo.php, sitemap.php\n- Remove: Kundlogotyper (uppdragsbrev logo-dark.png, logo-light.png)",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.91.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
