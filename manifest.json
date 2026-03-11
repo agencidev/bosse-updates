@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.100",
+    "latest_version": "1.5.101",
     "release_date": "2026-03-11",
     "min_php_version": "8.0",
-    "changelog": "- Feat: `send_mail_error()` — returnerar detaljerat SMTP-felmeddelande efter misslyckat utskick\n- Fix: SMTP-test i Super Admin visar nu exakt felmeddelande istället för \"kontrollera loggarna\"",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.100.zip",
+    "changelog": "- Feat: MIME multipart attachments i SmtpMailer — `send_mail()` stödjer nu `attachments` (array filsökvägar) och `delete_attachments` (bool)",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.101.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
