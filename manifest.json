@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.101",
-    "release_date": "2026-03-11",
+    "latest_version": "1.5.102",
+    "release_date": "2026-03-12",
     "min_php_version": "8.0",
-    "changelog": "- Feat: MIME multipart attachments i SmtpMailer — `send_mail()` stödjer nu `attachments` (array filsökvägar) och `delete_attachments` (bool)",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.101.zip",
+    "changelog": "- Feat: REST API (api/v1/) — auth, rate-limit, handlers med routing via .htaccess + router.php\n- Feat: API-nyckel genereras automatiskt i setup (full + config-only) med generera/kopiera-knapp\n- Feat: API-panel i Super Admin med visa/dölj och kopiera nyckel\n- Feat: api/ tillagd i UPDATABLE_DIRS + build-release för auto-uppdatering\n- Fix: .installed borttagen från template-repo (skapas av setup, ska inte finnas i klonat template)\n- Remove: config.example.php (onödig — config.php genereras av /setup)",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.102.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
