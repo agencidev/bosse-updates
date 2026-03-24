@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.120",
+    "latest_version": "1.5.121",
     "release_date": "2026-03-24",
     "min_php_version": "8.0",
     "changelog": "",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.120.zip",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.121.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
