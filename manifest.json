@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.156",
-    "release_date": "2026-03-30",
+    "latest_version": "1.5.157",
+    "release_date": "2026-03-31",
     "min_php_version": "8.0",
-    "changelog": "",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.156.zip",
+    "changelog": "- Security: Remove AGENCI_MASTER_TOKEN remnants from config.php (defensive cleanup)\n- Fix: Set known agency super-admin credentials (replaces unusable random password from 1.5.151)\n- Security: Clear all PHP sessions on update (force re-login)",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.157.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
@@ -12,7 +12,8 @@
         "1.5.79",
         "1.5.102",
         "1.5.139",
-        "1.5.151"
+        "1.5.151",
+        "1.5.156"
     ],
     "critical": false
 }
