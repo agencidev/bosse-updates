@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.157",
+    "latest_version": "1.5.158",
     "release_date": "2026-03-31",
     "min_php_version": "8.0",
-    "changelog": "- Security: Remove AGENCI_MASTER_TOKEN remnants from config.php (defensive cleanup)\n- Fix: Set known agency super-admin credentials (replaces unusable random password from 1.5.151)\n- Security: Clear all PHP sessions on update (force re-login)",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.157.zip",
+    "changelog": "- Fix: Include cms/form-log-db.php and cms/form-log.php in build release (missing from ZIP)",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.158.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
