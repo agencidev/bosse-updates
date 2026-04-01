@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.159",
-    "release_date": "2026-03-31",
+    "latest_version": "1.5.160",
+    "release_date": "2026-04-01",
     "min_php_version": "8.0",
-    "changelog": "- Fix: Hide edit mode button on /form-log (CMS page, not frontend)\n- Fix: Hide \"Alla\" source filter tab when only one source exists\n- Remove: Navigation editor from settings page",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.159.zip",
+    "changelog": "- Change: Default agency super-admin username from \"agency\" to \"admin\"",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.160.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
@@ -13,7 +13,8 @@
         "1.5.102",
         "1.5.139",
         "1.5.151",
-        "1.5.156"
+        "1.5.156",
+        "1.5.159"
     ],
     "critical": false
 }
