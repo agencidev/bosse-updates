@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.167",
+    "latest_version": "1.5.168",
     "release_date": "2026-04-01",
     "min_php_version": "8.0",
-    "changelog": "- Feat: WebP `<picture>` serving — frontend auto-serves WebP with fallback via picture_tag()\n- Feat: Focal point picker — click to set focus point on images, saved as object-position\n- Feat: Bulk delete in media library — checkbox per image + \"Radera valda\" toolbar\n- Feat: SEO score per post — 0-100 score with color badge in post list + detail panel in editor\n- Feat: Sitemap ping — auto-pings Google on publish (single + bulk)",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.167.zip",
+    "changelog": "- Fix: Include seo/score.php in build release allowlist\n- Fix: Graceful fallback if seo/score.php not yet deployed (no crash)",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.168.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
