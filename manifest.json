@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.163",
+    "latest_version": "1.5.164",
     "release_date": "2026-04-01",
     "min_php_version": "8.0",
-    "changelog": "- Fix: Auto-prefix https:// for URLs without protocol in link and button editor",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.163.zip",
+    "changelog": "- UX: Deferred image save — images no longer auto-save, requires explicit \"Spara ändringar\" click\n- UX: Floating save bar with change count, save and discard buttons\n- UX: Green outline on images with pending changes\n- UX: Confirm dialog when exiting edit mode with unsaved changes\n- UX: Browser beforeunload warning with pending changes",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.164.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
