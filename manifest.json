@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.161",
+    "latest_version": "1.5.162",
     "release_date": "2026-04-01",
     "min_php_version": "8.0",
-    "changelog": "- Hide: Tickets/Ärenden card from dashboard (feature not yet launched)",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.161.zip",
+    "changelog": "- UX: Editor content styling — h2, h3, h4, blockquote, img, lists now match preview\n- UX: Modern custom checkbox in post list (replaces native browser checkbox)\n- UX: Publish bulk button gets green tint to distinguish from unpublish\n- UX: Cleaner select-all container (remove background/padding)",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.162.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
