@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.165",
+    "latest_version": "1.5.166",
     "release_date": "2026-04-01",
     "min_php_version": "8.0",
-    "changelog": "- Fix: CMS inline editor now uses agency brand colors via CSS custom properties (--cms-bg, --cms-accent, --cms-font)\n- Fix: admin-bar.php sets :root CSS variables for brand colors, accessible to cms.js\n- Fix: All hardcoded PEYS colors (#379b83, #054547, #033234) replaced with dynamic agency values",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.165.zip",
+    "changelog": "- Change: Rename \"Formulär\" to \"Inkorg\" in dashboard and admin-bar\n- Feat: editable_button() — inline editing of button text + link in edit mode\n- UX: Unsaved changes warning (beforeunload) in post editor (edit + new)",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.166.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
