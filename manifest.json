@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.169",
+    "latest_version": "1.5.170",
     "release_date": "2026-04-01",
     "min_php_version": "8.0",
-    "changelog": "- Feat: SEO score per page in /seo admin — live score badge (0-100), progress bars, optimal range hints\n- UX: Green \"good\" state on character counters when within optimal range\n- UX: Visual progress bars under title and description fields",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.169.zip",
+    "changelog": "- Fix: Use ROOT_PATH for seo/score.php include path (resolves path issue on some hosts)",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.170.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
