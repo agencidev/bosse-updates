@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.164",
+    "latest_version": "1.5.165",
     "release_date": "2026-04-01",
     "min_php_version": "8.0",
-    "changelog": "- UX: Deferred image save — images no longer auto-save, requires explicit \"Spara ändringar\" click\n- UX: Floating save bar with change count, save and discard buttons\n- UX: Green outline on images with pending changes\n- UX: Confirm dialog when exiting edit mode with unsaved changes\n- UX: Browser beforeunload warning with pending changes",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.164.zip",
+    "changelog": "- Fix: CMS inline editor now uses agency brand colors via CSS custom properties (--cms-bg, --cms-accent, --cms-font)\n- Fix: admin-bar.php sets :root CSS variables for brand colors, accessible to cms.js\n- Fix: All hardcoded PEYS colors (#379b83, #054547, #033234) replaced with dynamic agency values",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.165.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
