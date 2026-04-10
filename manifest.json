@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.170",
-    "release_date": "2026-04-01",
+    "latest_version": "1.5.171",
+    "release_date": "2026-04-10",
     "min_php_version": "8.0",
-    "changelog": "- Fix: Use ROOT_PATH for seo/score.php include path (resolves path issue on some hosts)",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.170.zip",
+    "changelog": "- Feat: Super-admin reset endpoint — /super-admin/reset?token=... for password recovery without SSH\n- Temporary feature with 24h expiry (2026-04-11 23:59 CEST), rate-limited, CSRF-protected",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.171.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
