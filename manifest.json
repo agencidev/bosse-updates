@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.172",
+    "latest_version": "1.5.173",
     "release_date": "2026-04-10",
     "min_php_version": "8.0",
-    "changelog": "- Fix: Cover images no longer aggressively cropped — use aspect-ratio instead of fixed height\n- Fix: Upload creates /uploads/ directory if missing — fixes upload failure on new sites\n- Fix: Add Content-Type text/html header on post pages — prevents XML parsing errors",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.172.zip",
+    "changelog": "- Fix: Media library upload — make 'key' parameter optional in handleUpload() so media uploads work without content.json reference\n- Fix: Editor image uploads now correctly save to /uploads/ without polluting content.json",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.173.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
