@@ -1,9 +1,9 @@
 {
-    "latest_version": "1.5.174",
+    "latest_version": "1.5.175",
     "release_date": "2026-04-10",
     "min_php_version": "8.0",
-    "changelog": "- Fix: XML error on post publish — sitemap.php set Content-Type: application/xml when loaded via require_once in edit.php. Now only sets XML header when called directly.",
-    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.174.zip",
+    "changelog": "- Fix: Cover images now save to /uploads/ (not /uploads/projects/) so they appear in media library",
+    "download_url": "https://raw.githubusercontent.com/agencidev/bosse-updates/main/releases/1.5.175.zip",
     "signature": "",
     "migrations": [
         "1.5.50",
